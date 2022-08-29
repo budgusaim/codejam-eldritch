@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CodeJam rss</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="enemy-choose">
+        <p>Выбери древнего</p>
+        <select name="enemy" id="enemy" class="choose-enemy">
+          <option disabled selected value>-- Список древних --</option>
+          <option value="azzayhoth">Азатот</option>
+          <option value="cthulhu">Ктулху</option>
+          <option value="solthoth">Йог-Сотот</option>
+          <option value="shubNiggurath">Шуб Ниггурат</option>
+        </select>
+        <div class="enemy-card"></div>
+      </div>
+      <div class="stage-container">
+        <div class="stage-info stage-one">
+          <div class="stage-name">Этап №1</div>
+          <div class="dots-container">
+            <div class="dot green"></div>
+            <div class="dot brown"></div>
+            <div class="dot blue"></div>
+          </div>
+        </div>
+        <div class="stage-info stage-two">
+          <div class="stage-name">Этап №2</div>
+          <div class="dots-container">
+            <div class="dot green"></div>
+            <div class="dot brown"></div>
+            <div class="dot blue"></div>
+          </div>
+        </div>
+        <div class="stage-info stage-three">
+          <div class="stage-name">Этап №3</div>
+          <div class="dots-container">
+            <div class="dot green"></div>
+            <div class="dot brown"></div>
+            <div class="dot blue"></div>
+          </div>
+        </div>
+      </div>
+      <div class="game-mode">
+        <div class="mode easiest">Очень легкий уровень сложности</div>
+        <div class="mode easy">Легкий уровень сложности</div>
+        <div class="mode normal">Средний уровень сложности</div>
+        <div class="mode hard">Высокий уровень сложности</div>
+        <div class="mode hardest">Очень высокий укровень сложности</div>
+      </div>
+      <div class="active-card-block"></div>
+      <div class="card-deck-holder"></div>
+      <div class="game">
+        <div class="game-start">Начать раздачу</div>
+        <div class="game-end">Закончить раздачу</div>
+      </div>
+    </div>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
